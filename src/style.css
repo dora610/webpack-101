@@ -1,0 +1,38 @@
+body {
+  background-color: lightslategray;
+  font-family: monospace;
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: 20px auto;
+  padding: 10px 15px;
+}
+
+.card {
+  height: 85px;
+  width: 100px;
+  background-color: beige;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+.card h3 {
+  font-size: larger;
+  font-weight: 800;
+}
+
+.card p {
+  font-size: small;
+  font-weight: 300;
+}
